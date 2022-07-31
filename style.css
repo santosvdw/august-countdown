@@ -72,3 +72,11 @@ a {
     color: white;
     /* text-decoration: none; */
 }
+
+.play {
+    padding: 5px;
+}
+
+svg.play {
+    transform: scale(3);
+}

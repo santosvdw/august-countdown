@@ -77,4 +77,8 @@ let playAugust = () => {
 };
 
 console.log(new Date());
+
+const playBtn = document.querySelector('play');
+
+playBtn.addEventListener('click', playAugust);
 // let timeout = setTimeout(playAugust, 10000);
