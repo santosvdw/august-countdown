@@ -65,7 +65,7 @@ let countDown = () => {
     } else {
     }
 
-    if (date == 'Sun Jul 31 2022 23:59:55 GMT+0200 (Midden-Europese zomertijd)') {
+    if (date == 'Sun Jul 31 2022 23:59:45 GMT+0200 (Midden-Europese zomertijd)') {
         playAugust();
     }
 };
