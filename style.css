@@ -1,0 +1,58 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    flex-flow: column wrap;
+    height: 95vh;
+    position: absolute;
+    top: 2.5vh;
+    left: 2.5vw;
+}
+
+body {
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/63/20/db/6320dba0257c0a28d09e5e467d111ce0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: none;
+    overflow-y: none;
+    box-sizing: inherit;
+}
+
+.time_left {
+    color: white;
+    background-color: black;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+/* .text {
+    position: absolute;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 20vh;
+} */
+
+.spantext {
+    display: flex;
+    top: 40vh;
+    width: 100vw;
+    z-index: 1;
+    justify-content: center;
+    position: absolute;
+    font-size: 1.5rem;
+}
